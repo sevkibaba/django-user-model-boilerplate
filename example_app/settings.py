@@ -132,8 +132,8 @@ USE_TZ = True
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 import mimetypes
-mimetypes.add_type("text/css", ".css", True)
-
+# mimetypes.add_type("text/css", ".css", True)
+#
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [

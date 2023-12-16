@@ -36,4 +36,6 @@ and password that you fill in the create super user steps. You can use these cre
 
 Check everything is ok by visiting this url on your local machine `http://127.0.0.1:8000/health/`.
 
-
+### TODO::
+- [ ] Add an ORM boilerplate for writing into different tables in the database
+- [ ] Create schema sub app
